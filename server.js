@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
-//^For serving static files
+//^For serving static files.
 app.use(express.static(__dirname + "/www"));
 
 app.get("/*", (req, res) => {
