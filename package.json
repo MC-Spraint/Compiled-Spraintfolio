@@ -1,0 +1,24 @@
+{
+  "name": "spraintfolio",
+  "version": "1.0.0",
+  "description": "This is my first personal portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MC-Spraint/Spraintfolio.git"
+  },
+  "author": "Mc Spraint (Snahashis Das)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MC-Spraint/Spraintfolio/issues"
+  },
+  "homepage": "https://github.com/MC-Spraint/Spraintfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
