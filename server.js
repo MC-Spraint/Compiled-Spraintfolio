@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(__dirname + "/www"));
 
 app.get("/*", (req, res) => {
-    res.sendFile(path.join(__dirname, "www/index.html"), function (err) {
+    res.sendFile(path.join(__dirname, "www/index.html"), (err) => {
     if (err) {
         res.status(500).send(err);
     }
